@@ -2,17 +2,26 @@
 
 html, body {
 	height: 100%;
-	margin: 0;
+	margin: auto;
 }
 
 body {
 	background-color: rgb(125, 143, 135);
-	padding-top:5px;
+	padding-top:15px;
 	padding-bottom: 20px;
-	text-align: center;
 	font-family: "comic-sans", monospace;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
 
-	
+.graphContainer {
+
+	width: 100%;
+	height: 600px;
+	text-align: center;
+	margin-right: 0;
 }
 
 .bar {

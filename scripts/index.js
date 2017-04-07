@@ -19,14 +19,12 @@ d3.json(URL, (error, data) => {
 
 
     d3.select('.graphContainer')
-						.style("width", "100%")
-						.style("height", "90%")
 						.style("padding", p)
     
     const svg = d3.select(".graphContainer")
                   .append("svg")
-                  .attr("width", "90%")
-                  .attr("height", "90%")
+                  .attr("width", 800)
+                  .attr("height", 500)
 
 
 
