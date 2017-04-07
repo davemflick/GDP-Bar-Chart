@@ -1,9 +1,51 @@
 * {box-sizing: border-box;}
 
-body {
-	background-color: #ddd;
+html, body {
+	height: 100%;
+	margin: 0;
 }
 
-html {
-	height: 100%;
+body {
+	background-color: rgb(125, 143, 135);
+	padding-top:100px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-family: "comic-sans", monospace;
+
+	
+}
+
+.bar {
+	fill: rgb(7, 132, 0);
+}
+
+.filled {
+	fill: red;
+}
+
+.title{
+	font-size: 45px;
+	fill: #EDF0EE;
+}
+
+.stats {
+	fill: #EDF0EE;
+}
+
+.xtext, .ytext {
+	fill: #FFFFA4;
+}
+
+.footer {
+	margin-bottom: 20px;
+	color: #ccc;
+}
+
+a {
+	text-decoration: none;
+	color: #FFF9F3;
+}
+
+a:hover {
+	color: #FFFDC7;
 }
